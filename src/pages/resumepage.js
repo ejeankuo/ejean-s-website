@@ -16,7 +16,10 @@ export default function ResumePage() {
             </a>
             </div>
 
-            <img src="/EjeanKuo_Resume-1.png" alt="Resume preview" className="resume-image" />
+            <div className="resume-image-container">
+                <p className="resume-figure-caption"> Or, just take a look! </p>
+                <img src="/EjeanKuo_Resume-1.png" alt="Resume preview" className="resume-image" />
+            </div>
         </div>
     );
   }
