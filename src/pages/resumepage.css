@@ -19,6 +19,7 @@
     flex-direction: column;
     align-items: center;
     margin-left: 2rem;
+    padding: 0 3rem 5rem;
 }
 
 .resume-figure-caption {
@@ -33,10 +34,8 @@
     width: 100%;
     max-width: 900px;
     height: auto;
-    border-radius: 14px;
     border: 1px solid var(--border);
-    padding-left: 3rem;
-    padding-right: 3rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* Mobile View */

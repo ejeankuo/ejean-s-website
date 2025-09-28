@@ -1,0 +1,42 @@
+/* About Page */
+
+.about-me-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.signature-about {
+    width: 850px;
+    display: block;
+    margin: 0 auto; 
+}
+
+.about-card {
+    display: flex;
+    gap: 2rem;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.about-text p {
+    margin: 1rem 3rem;
+    max-width: 600px;
+}
+
+.about-photo {
+    width: 500px;
+    height: auto;
+}
+
+.connect-sticker {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
