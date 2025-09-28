@@ -22,6 +22,7 @@ body {
   width: 850px;
   display: block;
   margin: 1rem auto;
+  margin-top: 0;
 }
 
 .container {
@@ -29,7 +30,7 @@ body {
   display: grid;
   grid-template-rows: 1fr auto;
   align-items: start;
-  padding: 2rem 1rem 1rem;
+  padding: 1rem 1rem 1rem;
 }
 
 .card {
@@ -72,7 +73,7 @@ body {
 .subtitle {
   margin: 0 0 1.25rem;
   color: var(--muted);
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   max-width: 600px;
   text-align: center;
 }
@@ -86,79 +87,8 @@ body {
   margin-top: 0;
 }
 
-.contacts-card {
-  background-color: #7e6072;
-  width: 600px;
-  border-radius: 50%;
-}
-
-.contact-heading {
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-bottom: 0.7rem;
-  color: white;
-}
-
-.contacts {
-  display: flex;    
-  justify-content: center;  
-  gap: 0.75rem;
-  list-style: none;             
-  margin: 0 0 1.25rem;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 0;
-}
-
-.contacts li {
-  display: flex;
-  flex: 0 0 50%; 
-  align-items: center;
-  justify-content: center;
-  color: white;
-}
-
-.contacts li a {
-  color: white;
-}
-
-.resume-actions {
-  text-align: center;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin: 2.5rem 0 2.5rem;
-}
-
-.button {
-  border: 1px solid transparent;
-  background: var(--primary);
-  color: white;
-  padding: 0.6rem 0.9rem;
-  border-radius: 12px;
-  font-weight: 500;
-  font-size: 1.15rem;
-  transition: transform 0.08s ease, filter 0.15s ease;
-}
-
-.button.outline {
-  background: transparent;
-  color: var(--text);
-  border-color: var(--border);
-}
-
-.resume-figure-caption {
-  font-size: 1.1rem;
-  margin-top: 0;
-}
-
-
-.resume-image {
-  display: block;
-  width: 100%;
-  max-width: 900px;
-  height: auto;
-  border-radius: 14px;
-  border: 1px solid var(--border);
+.nav-button {
+  width: 150px;
 }
 
 .footer {
@@ -187,24 +117,4 @@ a:hover {
 @media (max-width: 520px) {
   .card { padding: 1.25rem; }
   .resume-actions { flex-direction: column; }
-}
-
-.inter-regular {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.host-grotesk-regular {
-  font-family: "Host Grotesk", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.dm-serif-text-regular {
-  font-family: "DM Serif Text", serif;
-  font-weight: 400;
-  font-style: normal;
 }
