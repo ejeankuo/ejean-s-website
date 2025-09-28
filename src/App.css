@@ -63,6 +63,11 @@ body {
   border-radius: 10%
 }
 
+.headshot-container p {
+  font-size: 1rem;
+  padding: 0 0 3rem;
+}
+
 .intro-text {
   display: inline-block;
   width: 300px;
@@ -79,7 +84,7 @@ body {
 
 .headshot {
   display: block;
-  margin: 2rem auto;
+  margin: 2rem auto 0;
   /* width: 300px; */
   width: min(70vw, 270px);
   height: auto;

@@ -32,5 +32,64 @@
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
+  }
+
+  .contact-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+  }
+
+  .logo {
+    width: 70px;
+    display: block;
+  }
+
+
+  /* Responsivity */
+
+  @media (max-width: 600px) {
+    .contacts-page {
+      padding: 0 1rem;
+    }
+  
+    .contact-image {
+      width: 100%;
+      margin: 2rem auto 0.5rem;
+    }
+
+    .contacts li { flex: 0 0 100%; }
+  
+    .contact-link {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      word-break: break-word;
+      font-size: 1rem;
+    }
+  
+    .logo {
+      width: 30px;
+      height: 30px;
+      flex: 0 0 30px;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 900px) {
+    .contacts {
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      max-width: 720px;
+      margin-left: 3rem;
+    }
+  
+    .contact-link {
+      padding: 10px 12px;
+    }
+  
+    .logo {
+      width: 28px;
+      height: 28px;
+    }
   }

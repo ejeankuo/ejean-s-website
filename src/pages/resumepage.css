@@ -52,10 +52,7 @@
       margin-bottom: 1rem;
     }
     .resume-image-container { margin-left: 0; }
-    .resume-image {
-      max-width: 100%;
-      padding: 0 1rem;
-    }
+    .resume-image { max-width: 100%; }
     .resume-figure-caption {
       font-size: 1rem;
       margin-top: 0;

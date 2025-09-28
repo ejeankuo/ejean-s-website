@@ -17,6 +17,7 @@
 .about-card {
     display: flex;
     gap: 2rem;
+    align-items: flex-start;
 }
 
 .about-text {
@@ -31,7 +32,8 @@
 }
 
 .about-photo {
-    width: 500px;
+    width: 100%;
+    max-width: 600px;
     height: auto;
 }
 
@@ -39,4 +41,92 @@
     width: 300px;
     display: block;
     margin: 0 auto;
+}
+
+.books-card {
+    text-align: center;
+    padding: 3rem 0 3rem;
+}
+.books-card p {
+    font-size: 1.1rem;
+}
+
+.book-cover {
+    width: 150px;
+    margin: 0 1rem;
+}
+
+/* Responsivity */
+
+.signature-about { max-width: 100%; height: auto; }
+.about-text p { line-height: 1.6; }
+
+/* Tablet */
+@media (max-width: 900px) {
+  .about-card {
+    gap: 1.25rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .about-text {
+    max-width: 700px;
+    margin: 0rem 2rem;
+  }
+
+  .about-text p {
+    margin: 0 1.25rem 1rem;
+    max-width: 100%;
+  }
+
+  .about-photo {
+    width: min(420px, 70vw);
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+/* Phone */
+@media (max-width: 600px) {
+  .about-me-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .signature-about {
+    width: 95%;
+    margin: 1.5rem auto 1rem;
+  }
+
+  .about-card {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+
+  .about-text {
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .about-text p {
+    margin: 0 0 0.9rem;
+    font-size: clamp(1rem, 1vw, 2rem);
+  }
+
+  .about-photo {
+    width: min(260px, 70vw);
+    height: auto;
+    margin: 0.5rem auto 2rem;
+  }
+
+  .connect-sticker {
+    width: min(220px, 60vw);
+    margin: 0.75rem auto 0;
+  }
+
+  .book-cover {
+    width: min(120px, 40vw);
+  }
 }

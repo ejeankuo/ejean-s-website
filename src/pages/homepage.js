@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { ReactTyped } from "react-typed";
+import { IoPin } from "react-icons/io5";
 
 
 function IntroText() {
@@ -25,17 +26,20 @@ function IntroText() {
             <div className="profile-row">
               <IntroText />
               <div className="divider"></div>
-              <img src="/headshot.png" alt="Ejean Kuo's Headshot" className="headshot" />
+              <div className="headshot-container">
+                <img src="/headshot.png" alt="Ejean Kuo's Headshot" className="headshot" />
+                <p> <IoPin /> San Francisco, CA</p>
+              </div>
             </div>
             <p className="subtitle">I'm a second year student at Northwestern 
             University pursuing a B.A. in Computer Science and English Literature.</p> 
   
             {/* Button Nav */}
             <div className="button-nav">
+                <Link to="/about"><img src="/fig-about-me.png" alt="About" className="nav-button" /></Link>
                 <Link to="/resume"><img src="/orange-resume.png" alt="Resume" className="nav-button" /></Link>
                 <Link to="/contacts"><img src="/apple-contacts.png" alt="Contacts" className="nav-button" /></Link>
                 <Link to="/projects"><img src="/tomato-proj.png" alt="Projects" className="nav-button" /></Link>
-                <Link to="/about"><img src="/fig-about-me.png" alt="About" className="nav-button" /></Link>
               </div>
             </section>
   
