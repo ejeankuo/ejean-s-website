@@ -1,5 +1,5 @@
 
 
 export default function AboutPage() {
-    return <div className="page"><h1>Contacts</h1></div>;
+    return <div className="page"><h1>About Me</h1></div>;
 }

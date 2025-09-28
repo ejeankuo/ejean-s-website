@@ -1,7 +1,22 @@
+// Resume page
+import "./resumepage.css";
 
-
-
-// src/pages/ResumePage.jsx
 export default function ResumePage() {
-    return <div className="page"><h1>Resume</h1></div>;
+    return (
+        <div className="resume-page">
+            <div className="resume-actions">
+            <img 
+                src="resumepage.png" 
+                alt="Download My Resume" 
+                className="resume-header" 
+                width="650px"
+            />
+            <a className="button" href="/EjeanKuo_Resume.pdf" download>
+                <img src="button-here.png" alt="Click Here" className="resume-button" />
+            </a>
+            </div>
+
+            <img src="/EjeanKuo_Resume-1.png" alt="Resume preview" className="resume-image" />
+        </div>
+    );
   }

@@ -1,0 +1,23 @@
+/* Projects Page */
+
+.projects-page {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects-heading {
+    width: 950px;
+}
+
+.ranklit-card {
+    display: flex;
+    text-wrap: wrap;
+    max-width: 1000px;
+}
+
+.ranklit-image {
+    width: 500px;
+    margin-bottom: 80px;
+}
+

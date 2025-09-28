@@ -1,6 +1,6 @@
 /* src/App.css */
 :root {
-  --bg: white;
+  --bg: antiquewhite;
   --text: black;
   --primary: #7b7645;
   --muted: rgb(67, 64, 64);
@@ -87,10 +87,14 @@ body {
   margin-top: 0;
 }
 
+/* Navigation */
 .nav-button {
   width: 150px;
+  padding-top: 1.6rem;
 }
 
+
+/* Footer */
 .footer {
   margin: 1.25rem auto 0;
   width: 100%;
@@ -102,6 +106,8 @@ body {
   border-top: 1px solid var(--border);
   opacity: 0.9;
 }
+
+/* Text */
 
 a {
   color: black;

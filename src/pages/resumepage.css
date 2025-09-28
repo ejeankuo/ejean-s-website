@@ -1,0 +1,33 @@
+/* Resume Page */
+
+.resume-page {
+    display: flex;
+    padding-top: 3rem;
+}
+
+.resume-actions {
+    width: 600px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.resume-button {
+    width: 600px;
+}
+
+.resume-figure-caption {
+    font-size: 1.5rem;
+    margin-top: 0;
+    text-align: center;
+}
+  
+.resume-image {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    border-radius: 14px;
+    border: 1px solid var(--border);
+    padding-left: 40px;
+}
+  
