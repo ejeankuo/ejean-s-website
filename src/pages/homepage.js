@@ -23,7 +23,7 @@ import { Typewriter } from 'react-simple-typewriter';
 function IntroText() {
   return (
     <h1 className="intro-text">
-      Hey, I'm Ejean and I love to{' '}
+      Hey, I'm Ejean and&nbsp;I&nbsp;love&nbsp;to{' '}
       <br />
       <span className="typewriter-phrases">
         <Typewriter
