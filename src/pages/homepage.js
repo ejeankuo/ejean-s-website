@@ -27,7 +27,11 @@ function IntroText() {
               <IntroText />
               <div className="divider"></div>
               <div className="headshot-container">
-                <img src="/headshot.png" alt="Ejean Kuo's Headshot" className="headshot" />
+                <li className="headshot-link">
+                    <a href="https://www.linkedin.com/in/ejeankuo/" className="contact-link"> 
+                      <img src="/headshot.png" alt="Ejean Kuo's Headshot" className="headshot" />
+                    </a>
+                </li> 
                 <p> <IoPin /> San Francisco, CA</p>
               </div>
             </div>

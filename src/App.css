@@ -68,6 +68,10 @@ body {
   padding: 0 0 3rem;
 }
 
+.headshot-link {
+  list-style-type: none;
+}
+
 .intro-text {
   display: inline-block;
   width: 300px;
