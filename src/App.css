@@ -1,8 +1,10 @@
 /* src/App.css */
 :root {
-  --bg: rgb(233, 241, 244);
+  --bg: rgb(243, 243, 234);
+  /* rgb(233, 241, 244) */
   --text: black;
-  --primary: #7b7645;
+  --primary: #989059;
+  --secondary: #7e6072;
   --muted: rgb(67, 64, 64);
 }
 
@@ -17,12 +19,10 @@ body {
 }
 
 .signature {
-  /* width: 850px; */
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
   display: block;
-  margin: 1rem auto;
-  margin-top: 1rem;
+  margin: 0.1rem auto;
 }
 
 .container {
@@ -37,20 +37,20 @@ body {
   max-width: 900px;
   width: 100%;
   margin: 0 auto;
-  padding: 2rem;
-  backdrop-filter: blur(6px);
+  padding: 1.2rem;
   text-align: center;
-
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
+  gap: 1rem;
 }
 
+/* --- Make intro text and headshot side-by-side --- */
+/* 
 .profile-row {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  font-size: 4rem;
+  justify-content: center;
 }
 
 .divider {
@@ -60,40 +60,52 @@ body {
   width: 4px;
   margin: 4.8rem;
   margin-top: 1rem;
-  border-radius: 10%
-}
+  border-radius: 10%;
+  margin-left: 0;
+} */
 
 .headshot-container p {
-  font-size: 1rem;
-  padding: 0 0 3rem;
+  font-size: 1.1rem;
+  padding: 0.3rem 0 0.3rem;
 }
 
 .headshot-link {
   list-style-type: none;
 }
 
-.intro-text {
-  display: inline-block;
-  width: 300px;
-  min-height: 2.4rem;
-}
-
-.subtitle {
-  margin: 0 0 1.25rem;
-  color: var(--muted);
-  font-size: 1.4rem;
-  max-width: 600px;
-  text-align: center;
-}
-
 .headshot {
   display: block;
-  margin: 2rem auto 0;
   /* width: 300px; */
   width: min(70vw, 270px);
   height: auto;
   border-radius: 50%;
-  margin-top: 0;
+  margin-top: -1rem;
+}
+
+.intro-text {
+  /* display: block; */
+  font-weight: normal;
+  font-size: clamp(1rem, 6vw, 3rem);
+  width: clamp(420px, 36vw, 550px);
+  margin-top: -3rem;
+}
+
+.typewriter {
+  display: inline-block;
+  min-width: 12ch;
+}
+
+.typewriter-phrases {
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.subtitle {
+  margin: 0 0 0;
+  color: var(--muted);
+  font-size: 1.4rem;
+  max-width: 600px;
+  text-align: center;
 }
 
 /* Navigation */
@@ -138,10 +150,10 @@ a:hover {
     gap: 1rem 1.5rem;
     font-size: clamp(2rem, 6vw, 3rem);
   }
-  .divider {
+  /* .divider {
     height: 160px;
     margin: 1rem;
-  }
+  } */
   .signature { 
     max-width: 100%; 
     height: auto; }

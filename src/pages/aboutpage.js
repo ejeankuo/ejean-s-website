@@ -26,6 +26,7 @@ export default function AboutPage() {
                 <img src="/in-memoriam-cover.jpg" alt="In Memoriam Book Cover" className="book-cover" />
                 <img src="/sirens-cover.jpg" alt="Sirens of Titan Book Cover" className="book-cover" />
             </div>
+
         </div>
     );
 }

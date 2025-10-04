@@ -12,7 +12,9 @@
     margin-left: 0.5rem;
 }
 
-.resume-button { width: 600px; }
+.resume-header { margin-left: 0.7rem; }
+
+.resume-button { width: 500px; }
 
 .resume-image-container {
     display: flex;
@@ -23,7 +25,7 @@
 }
 
 .resume-figure-caption {
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 1.3rem;
     text-align: center;
     font-style: italic;
@@ -37,6 +39,7 @@
     border: 1px solid var(--border);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
 
 /* Mobile View */
   
