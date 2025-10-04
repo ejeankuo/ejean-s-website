@@ -177,6 +177,7 @@ a:hover {
     width: 90vw;
     text-align: center;
     min-height: 2.2rem;
+    margin-top: -2.3rem;
   }
   .headshot {
     width: 54vw;
