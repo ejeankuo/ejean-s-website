@@ -1,6 +1,5 @@
 import './App.css';
 
-
 /* Page Nav Imports */
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/homepage";

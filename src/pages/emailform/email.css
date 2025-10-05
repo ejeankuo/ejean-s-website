@@ -1,0 +1,88 @@
+
+.email {
+    display: flex;
+    justify-content: center;
+}
+.input-box {
+    padding: 0.5rem;
+}
+
+form {
+    max-width: 500px;
+}
+
+form h2 {
+    font-size: 2.2rem;
+    color: #7e6072;
+}
+
+form .input-box {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+.input-box .field {
+    width: 100%;
+    min-width: 400px;
+    height: 50px;
+    background: white;
+    border: 2px solid #ddd;
+    outline: none;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.input-box .field.mess {
+    height: 175px;
+    width: 100%;
+    min-width: 400px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+form button {
+    width: 50%;
+    height: 45px;
+    background: #989059;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    margin: 1rem 0 4rem;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+form button:hover {
+    background: #7a7446
+}
+
+.form-message {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  .form-message.success {
+    color: #7e6072;
+    margin: -2rem 0 6rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .form-message.error {
+    color: red;
+    margin: -2rem 0 6rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  

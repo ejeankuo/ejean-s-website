@@ -19,10 +19,11 @@
     justify-content: center;  
     gap: 0.75rem;
     list-style: none;             
-    margin: 0 0 1.25rem;
+    margin: 6rem 0 1.25rem;
     align-items: center;
     flex-wrap: wrap;
     padding: 0;
+    flex: 1;
   }
   
   .contacts li {
@@ -41,11 +42,21 @@
     text-decoration: none;
   }
 
+  .contacts-row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
   .logo {
     width: 70px;
     display: block;
   }
 
+  .email-form {
+    flex: 1;
+    margin-left: -25rem;
+  }
 
   /* Responsivity */
 
@@ -56,7 +67,7 @@
   
     .contact-image {
       width: 100%;
-      margin: 2rem auto 0.5rem;
+      margin: 2rem auto 0.5rem; 
     }
 
     .contacts li { flex: 0 0 100%; }
