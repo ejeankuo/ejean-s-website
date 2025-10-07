@@ -33,7 +33,7 @@ export default function Email () {
         
         <section className="email">
             <form onSubmit={onSubmit}>
-                <h2>Send me an email!</h2>
+                <h2>Send me an email :)</h2>
                 <div className="input-box">
                     <label>Name </label>
                     <input type="text" className="field" placeholder="Full name" name="name" required />

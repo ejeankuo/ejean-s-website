@@ -85,14 +85,27 @@
       height: auto;
       flex: 0 0 30px;
     }
+
+    .contacts-row {
+      flex-direction: column;
+    }
+
+    .contacts {
+      margin: 0 0 0;
+    }
+
+    .email-form {
+      transform: scale(0.8);
+      margin-left: -0.5rem;
+      margin-top: -2.25rem;
+      max-width: 100%;
+    }
   }
   
-  @media (min-width: 601px) and (max-width: 900px) {
+  @media (min-width: 601px) and (max-width: 1200px) {
     .contacts {
       grid-template-columns: 1fr 1fr;
-      gap: 1rem;
-      max-width: 720px;
-      margin-left: 3rem;
+      margin-top: 4.25rem;
     }
   
     .contact-link {
@@ -103,4 +116,15 @@
       width: 28px;
       height: auto;
     }
+
+    .email-form {
+      margin: 1.5rem 2.5rem 1rem 0rem;
+    }
+
+    .contacts li {
+      font-size: calc(7px + 2vmin);
+      white-space: nowrap;
+    }
+
   }
+
