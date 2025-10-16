@@ -56,6 +56,23 @@
     margin: 0 1rem;
 }
 
+.question-card {
+    text-align: center;
+    margin: 2rem 8rem;
+    padding: 2rem 10rem;
+    background-color: aliceblue;
+    border-radius: 8%;
+}
+
+.faq-photo {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    display: row;
+    margin: 0 auto;
+    padding: 10px;
+}
+
 /* Responsivity */
 
 .signature-about { max-width: 100%; height: auto; }
