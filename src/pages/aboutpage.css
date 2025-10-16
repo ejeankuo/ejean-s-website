@@ -56,6 +56,23 @@
     margin: 0 1rem;
 }
 
+.question-card {
+    text-align: center;
+    margin: 2rem 8rem;
+    padding: 2rem 10rem;
+    background-color: aliceblue;
+    border-radius: 8%;
+}
+
+.faq-photo {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    display: row;
+    margin: 0 auto;
+    padding: 10px;
+}
+
 /* Responsivity */
 
 .signature-about { max-width: 100%; height: auto; }
@@ -83,6 +100,22 @@
     width: min(420px, 70vw);
     display: block;
     margin: 0 auto;
+  }
+
+  .question-card {
+    display: block;
+    margin: 0 auto 2rem;
+    padding: 1rem 2rem;
+    width: 80%;
+    border-radius: 0%;
+  }
+
+  .question-card p {
+    font-size: clamp(0.9rem, 1vw, 2rem);
+  }
+
+  .faq-photo {
+    width: min(350px, 60vw);
   }
 }
 
