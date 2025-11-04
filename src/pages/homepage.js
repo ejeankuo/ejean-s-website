@@ -72,7 +72,7 @@ function IntroText() {
   
             {/* Button Nav */}
             <div className="button-nav">
-                <Link to="/about"><img src="/fig-about-me.png" alt="About" className="nav-button" /></Link>
+                <a href="/about"><img src="/fig-about-me.png" alt="About" className="nav-button" /></a>
                 <Link to="/resume"><img src="/orange-resume.png" alt="Resume" className="nav-button" /></Link>
                 <Link to="/contacts"><img src="/apple-contacts.png" alt="Contacts" className="nav-button" /></Link>
                 <Link to="/projects"><img src="/tomato-proj.png" alt="Projects" className="nav-button" /></Link>
