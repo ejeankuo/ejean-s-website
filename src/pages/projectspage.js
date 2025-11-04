@@ -48,7 +48,7 @@ export default function ProjectsPage() {
             </a>
           </li>
           <p className="project-description">
-            <strong> Tech Stack ––– React.js · Node.js ·Supabase · Vercel </strong> <br /> <br />
+            <strong> Tech Stack ––– React.js · Node.js · Supabase · Vercel </strong> <br /> <br />
             A full-stack web application for Climate Action Evanston to streamline data collection and visualization. <br /> <br />
             The platform centralizes submission data into one location, reducing manual tracking and reporting time by 40%. Built to be admin-friendly, so non-technical staff can easily add and edit content displayed on the site––even without the help of developers. <br /> <br />
             By supporting the recording and visualization of local volunteer efforts, this project combines activism with scalable, collaborative development with Git version control.
