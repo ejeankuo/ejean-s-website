@@ -1,7 +1,7 @@
 import './App.css';
 
 /* Page Nav Imports */
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/homepage";
 import ResumePage from "./pages/resumepage";
 import ContactsPage from "./pages/contactspage";
