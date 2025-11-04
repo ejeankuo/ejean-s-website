@@ -1,15 +1,12 @@
 import './App.css';
 
 /* Page Nav Imports */
-import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/homepage";
 import ResumePage from "./pages/resumepage";
 import ContactsPage from "./pages/contactspage";
 import ProjectsPage from "./pages/projectspage";
 import AboutPage from "./pages/aboutpage";
-
-const isLinkedInInApp = /LinkedInApp/i.test(navigator.userAgent);
-const Router = isLinkedInInApp ? HashRouter : BrowserRouter;
 
 export default function App() {
   return (
