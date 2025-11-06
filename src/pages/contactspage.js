@@ -11,6 +11,7 @@ export default function ContactsPage() {
                 src="/connectwithme.png" 
                 alt="Connect with Me" 
                 className="contact-image"
+                loading="eager"
             />
             <div className="contacts-row">
                 {/* Left column */}

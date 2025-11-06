@@ -10,9 +10,10 @@ export default function ResumePage() {
                 alt="Download My Resume" 
                 className="resume-header" 
                 width="650px"
+                loading="eager"
             />
             <a className="button" href="/EjeanKuo_Resume.pdf" download>
-                <img src="button-here.png" alt="Click Here" className="resume-button" />
+                <img src="button-here.png" alt="Click Here" className="resume-button" loading="eager"/>
             </a>
             </div>
 

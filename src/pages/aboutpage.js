@@ -5,7 +5,7 @@ export default function AboutPage() {
     return (
         <div className="about-me-container">
             <div className="about-me-header">
-                <img src="/about-me.png" alt="About me" className="signature-about" />
+                <img src="/about-me.png" alt="About me" className="signature-about" loading="eager"/>
                 <div className="about-card">
                     <div className="about-text">
                         <p>Hello! I'm Ejean Kuo, a third-year student at Northwestern University pursuing a B.A. in Computer Science and English Literature.</p>
@@ -18,7 +18,7 @@ export default function AboutPage() {
                             <img src="/connect-fruit-sticker.png" alt="Connect with me Button" className="connect-sticker" />
                         </Link>
                     </div>
-                    <img src="/busan-ejean.jpg" alt="Ejean Kuo Personal" className="about-photo" />
+                    <img src="/busan-ejean.jpg" alt="Ejean Kuo Personal" className="about-photo" loading="eager"/>
                 </div>
             </div>
             <div className="books-card">

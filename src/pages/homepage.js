@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
 import { IoPin } from "react-icons/io5";
 import { Typewriter } from 'react-simple-typewriter';
 // import { ReactTyped } from "react-typed";
+//import { Link } from "react-router-dom";
 
 
 // function IntroText() {

@@ -3,14 +3,19 @@ import "./projectspage.css";
 export default function ProjectsPage() {
     return (
       <div className="projects-page">
-        <img src="/projects-heading.png" alt="What I've Been Working On" className="projects-heading" />
+        <img 
+          src="/projects-heading.png" 
+          alt="What I've Been Working On" 
+          className="projects-heading" 
+          loading="eager"
+        />
 
         {/* Ranklit */}
         <h1 className="project-title">Ranklit: A Book Ranking iOS Application</h1>
         <div className="project-card">
           <li>
             <a href="https://github.com/ejeankuo" target="_blank" rel="noopener noreferrer">
-              <img src="/ranklit-logo.png" alt="Ranklit Logo" className="project-image" />
+              <img src="/ranklit-logo.png" alt="Ranklit Logo" className="project-image" loading="eager"/>
             </a>
           </li>
           <p className="project-description">
@@ -27,7 +32,7 @@ export default function ProjectsPage() {
         <div className="project-card">
           <li>
             <a href="https://github.com/ejeankuo" target="_blank" rel="noopener noreferrer">
-              <img src="/pacman-ss.png" alt="Pacman Screenshot" className="project-image" />
+              <img src="/pacman-ss.png" alt="Pacman Screenshot" className="project-image" loading="eager"/>
             </a>
           </li>
           <p className="project-description">
@@ -44,7 +49,7 @@ export default function ProjectsPage() {
         <div className="project-card">
           <li>
             <a href="https://github.com/ejeankuo" target="_blank" rel="noopener noreferrer">
-              <img src="/form-ss.png" alt="CAE logo" className="project-image" />
+              <img src="/form-ss.png" alt="CAE logo" className="project-image" loading="eager"/>
             </a>
           </li>
           <p className="project-description">
