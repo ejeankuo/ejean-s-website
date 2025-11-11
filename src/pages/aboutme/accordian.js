@@ -1,6 +1,5 @@
 import Accordion from 'react-bootstrap/Accordion';
 import ReusableCoursel from "./carousel.js";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from "react-router-dom";
 
 const DiscPhotos = [

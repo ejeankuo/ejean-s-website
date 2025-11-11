@@ -1,7 +1,6 @@
 import "./aboutpage.css";
 import ReusableCoursel from "./carousel.js";
 import { Link } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const DiscPhotos = [
     { src: "/disc_catering.png", alt: "Ejean with DISC exec" },

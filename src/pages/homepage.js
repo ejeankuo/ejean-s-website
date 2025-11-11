@@ -1,5 +1,6 @@
 import { IoPin } from "react-icons/io5";
 import { Typewriter } from 'react-simple-typewriter';
+
 // import { ReactTyped } from "react-typed";
 //import { Link } from "react-router-dom";
 
@@ -52,9 +53,9 @@ function IntroText() {
   
   export default function App() {
     return (
-        <main className="container">
+        <main className="home-container">
           {/* Personal Details + Intro Card */}
-          <section className="card">
+          <section className="home-card">
             <img src="/ejeanswebsite_3.png" alt="Website title" className="signature" />
             <IntroText />
             <div className="profile-row">
