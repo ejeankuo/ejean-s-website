@@ -58,9 +58,11 @@
 
 .question-card {
     text-align: center;
-    margin: 2rem 8rem;
-    padding: 2rem 10rem;
+    padding: 2rem 4rem;
     background-color: #ebe8d3;
+    max-width: 50%;
+    display: block;
+    margin: 0 auto 3rem;
     border-radius: 8%;
 }
 
@@ -71,6 +73,10 @@
     display: row;
     margin: 0 auto;
     padding: 10px;
+}
+
+a {
+  color: inherit;
 }
 
 /* Responsivity */
@@ -104,10 +110,10 @@
 
   .question-card {
     display: block;
-    margin: 0 auto 2rem;
+    margin: 0 auto 3rem;
     padding: 1rem 2rem;
-    width: 80%;
-    border-radius: 0%;
+    max-width: 80%;
+    border-radius: 8%;
   }
 
   .question-card p {
@@ -161,5 +167,9 @@
 
   .book-cover {
     width: min(120px, 40vw);
+  }
+
+  .question-card {
+    border-radius: 0%;
   }
 }
