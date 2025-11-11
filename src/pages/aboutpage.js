@@ -54,7 +54,7 @@ export default function AboutPage() {
                         <br/>However, as I was tasked with looking through massive databases of penal codes or Supreme Court rulings, 
                         I was constantly frustrated by how clunky it was to use these tools. The more I struggled with the user  
                         experience of these sites, the more interested I got in the other side of things; specifically, 
-                        <span style={{fontWeight: "bold"}}>in how these tools were built, and how they could be improved.</span> <br/> 
+                        <span style={{fontWeight: "bold"}}> in how these tools were built, and how they could be improved.</span> <br/> 
                         <br/>Now, I love to code because it allows me to combine my analytical skills with my creativity to build 
                         tools that can make a difference! Check out my <Link to="/projects">projects page</Link> to see some of the things I've developed.
                     </p>
