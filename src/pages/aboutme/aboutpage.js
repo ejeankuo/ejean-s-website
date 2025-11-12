@@ -1,5 +1,6 @@
 import "./aboutpage.css";
 import ReusableCoursel from "./carousel.js";
+import { Typewriter } from 'react-simple-typewriter';
 import { Link } from "react-router-dom";
 
 const DiscPhotos = [
@@ -17,6 +18,22 @@ const SDFAPhotos = [
     { src: "/sfda_intern2.jpg", alt: "Ejean at SFDA Office" }
 ]
 
+function HelloTyped() {
+    return (
+    <span>
+        <Typewriter
+        words={[ 'Hello! It\'s nice to meet you.' ]}
+        loop={true}
+        cursor
+        cursorStyle="|"
+        typeSpeed={80}
+        deleteSpeed={60}
+        delaySpeed={1000}
+        />
+    </span>
+    );
+  }
+
 export default function AboutPage() {
     return (
         <div className="about-me-container">
@@ -24,7 +41,8 @@ export default function AboutPage() {
                 <img src="/about-me.png" alt="About me" className="signature-about" loading="eager"/>
                 <div className="about-card">
                     <div className="about-text">
-                        <p>Hello! I'm Ejean Kuo, a third-year student at Northwestern University pursuing a B.A. in Computer Science and English Literature.</p>
+                        <h2>< HelloTyped /></h2>
+                        <p>I'm Ejean Kuo, a third-year student at Northwestern University pursuing a B.A. in Computer Science and English Literature.</p>
                         <p>I'm from the San Francisco Bay Area, but I'm currently based in Evanston, IL. I love to study languages, 
                             whether it's through coding or by reading/writing, and to explore the intersection of technology and creativity.  
                             I'm always eager to learn new skills and take on exciting projects.</p>
@@ -45,7 +63,6 @@ export default function AboutPage() {
                 <img src="/sirens-cover.jpg" alt="Sirens of Titan Book Cover" className="book-cover" />
             </div>
             <div className="FAQ-container">
-                <h2 style={{textAlign:"center", fontSize: "28px" }}>More about me:</h2>
                 <div className="question-card">
                     <p style={{fontWeight: "bold", fontSize: "20px", color: "#293d61"}}>Where am I on campus?</p>
                     <p>At Northwestern, you can find me organizing technical workshops with <span style={{fontWeight: "bold"}}>
