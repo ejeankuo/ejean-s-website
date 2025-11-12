@@ -34,7 +34,7 @@ export default function AboutPage() {
                             <img src="/connect-fruit-sticker.png" alt="Connect with me Button" className="connect-sticker" />
                         </Link>
                     </div>
-                    <img src="/busan-ejean.jpg" alt="Ejean Kuo Personal" className="about-photo" loading="eager"/>
+                    <img src="/Ejean_AbtMe.png" alt="Ejean Kuo Pic" className="about-photo" loading="eager"/>
                 </div>
             </div>
             <div className="books-card">
