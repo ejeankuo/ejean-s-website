@@ -179,7 +179,6 @@ a {
   }
 
   .about-photo {
-    width: min(260px, 70vw);
     height: auto;
     margin: 0.5rem auto 2rem;
   }
