@@ -20,7 +20,7 @@ const SDFAPhotos = [
 
 function HelloTyped() {
     return (
-    <span>
+    <span className="hello-typewriter">
         <Typewriter
         words={[ 'Hello! It\'s nice to meet you.' ]}
         loop={true}
@@ -41,7 +41,7 @@ export default function AboutPage() {
                 <img src="/about-me.png" alt="About me" className="signature-about" loading="eager"/>
                 <div className="about-card">
                     <div className="about-text">
-                        <h2>< HelloTyped /></h2>
+                        <h2><HelloTyped/></h2>
                         <p>I'm Ejean Kuo, a third-year student at Northwestern University pursuing a B.A. in Computer Science and English Literature.</p>
                         <p>I'm from the San Francisco Bay Area, but I'm currently based in Evanston, IL. I love to study languages, 
                             whether it's through coding or by reading/writing, and to explore the intersection of technology and creativity.  
