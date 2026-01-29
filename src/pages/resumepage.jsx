@@ -12,14 +12,14 @@ export default function ResumePage() {
                 width="650px"
                 loading="eager"
             />
-            <a className="button" href="/EjeanKuo_Resume.pdf" download>
+            <a className="button" href="/Ejean_Kuo_Resume.pdf" download>
                 <img src="button-here.png" alt="Click Here" className="resume-button" loading="eager"/>
             </a>
             </div>
 
             <div className="resume-image-container">
                 <p className="resume-figure-caption"> Or, just take a look! </p>
-                <img src="/EjeanKuo_Resume-1.png" alt="Resume preview" className="resume-image" />
+                <img src="/Ejean_Kuo_Resume.webp" alt="Resume preview" className="resume-image" />
             </div>
         </div>
     );

@@ -8,7 +8,7 @@ export default function ContactsPage() {
         <div className="contacts-page">
             {/* Contact Details */}
             <img 
-                src="/connectwithme.png" 
+                src="/connectwithme.webp" 
                 alt="Connect with Me" 
                 className="contact-image"
                 loading="eager"

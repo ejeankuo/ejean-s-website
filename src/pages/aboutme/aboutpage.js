@@ -38,7 +38,7 @@ export default function AboutPage() {
     return (
         <div className="about-me-container">
             <div className="about-me-header">
-                <img src="/about-me.png" alt="About me" className="signature-about" loading="eager"/>
+                <img src="/about-me.webp" alt="About me" className="signature-about" loading="eager"/>
                 <div className="about-card">
                     <div className="about-text">
                         <h2><HelloTyped/></h2>
