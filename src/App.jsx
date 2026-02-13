@@ -8,10 +8,13 @@ import ResumePage from "./pages/resumepage";
 import ContactsPage from "./pages/contactspage";
 import ProjectsPage from "./pages/projectspage";
 import AboutPage from "./pages/aboutme/aboutpage";
+import useDarkMode from './hooks/useDarkMode.js';
 
 export default function App() {
+  const {isDark, setIsDark} = useDarkMode();
   return (
     <Router>
+      <button className="darkmode-toggle" onClick={() => setIsDark(prev => !prev)}>toggle</button>
       <Routes>
         <Route path="/" element={<HomePage />} />
           <Route path="/resume" element={<ResumePage />} />

@@ -1,20 +1,16 @@
 /* Resume Page */
 
 .resume-page {
-    display: flex;
+    overflow-y: scroll;
     padding-top: 3rem;
 }
 
 .resume-actions {
-    width: 600px;
     text-align: center;
     transition: box-shadow 0.3s ease;
-    margin-left: 0.5rem;
 }
 
-.resume-header { margin-left: 0.7rem; }
-
-.resume-button { width: 500px; }
+.resume-button { width: 20%; }
 
 .resume-button:hover  {
     -ms-transform: rotate(-10deg);
@@ -36,11 +32,13 @@
     margin-top: 1rem;
     font-size: 1.3rem;
     text-align: center;
+    font-family: "Jersey 10", sans-serif;
     font-style: italic;
 }
   
 .resume-image {
-    display: block;
+    display: flex;
+    flex: 1;
     width: 100%;
     max-width: 900px;
     height: auto;
@@ -48,6 +46,18 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+.experiences-scroll-container {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: "Jersey 10", sans-serif;
+}
+
+.experience-caption h2,
+.experience-caption p {
+  margin: 0;
+}
 
 /* Mobile View */
   

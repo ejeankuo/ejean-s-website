@@ -1,21 +1,21 @@
 import "./aboutpage.css";
-import ReusableCoursel from "./carousel.js";
+import ReusableCoursel from "./carousel.jsx";
 import { Typewriter } from 'react-simple-typewriter';
 import { Link } from "react-router-dom";
 
 const DiscPhotos = [
-    { src: "/disc_catering.png", alt: "Ejean with DISC exec" },
-    { src: "/CAE_presentation.png", alt: "CAE presentation" }
+    { src: "/images/disc_catering.png", alt: "Ejean with DISC exec" },
+    { src: "/images/CAE_presentation.png", alt: "CAE presentation" }
 ]
 
 const NUMTPhotos = [
-    { src: "/numt_ejean.jpg", alt: "Northwestern Mock Trial Defense"},
-    { src: "/numt_fall_team.png", alt: "Northwestern Mock Trial Team"}
+    { src: "/images/numt_ejean.jpg", alt: "Northwestern Mock Trial Defense"},
+    { src: "/images/numt_fall_team.png", alt: "Northwestern Mock Trial Team"}
 ]
 
 const SDFAPhotos = [
-    { src: "/sfda_internship.jpg", alt: "SFDA BeReal Screenshot" },
-    { src: "/sfda_intern2.jpg", alt: "Ejean at SFDA Office" }
+    { src: "/images/sfda_internship.jpg", alt: "SFDA BeReal Screenshot" },
+    { src: "/images/sfda_intern2.jpg", alt: "Ejean at SFDA Office" }
 ]
 
 function HelloTyped() {
@@ -38,29 +38,33 @@ export default function AboutPage() {
     return (
         <div className="about-me-container">
             <div className="about-me-header">
-                <img src="/about-me.webp" alt="About me" className="signature-about" loading="eager"/>
+                <img src="/images/about-me.webp" alt="About me" className="signature-about" loading="eager"/>
                 <div className="about-card">
                     <div className="about-text">
                         <h2><HelloTyped/></h2>
                         <p>I'm Ejean Kuo, a third-year student at Northwestern University pursuing a B.A. in Computer Science and English Literature.</p>
                         <p>I'm from the San Francisco Bay Area, but I'm currently based in Evanston, IL. I love to study languages, 
-                            whether it's through coding or by reading/writing, and to explore the intersection of technology and creativity.  
-                            I'm always eager to learn new skills and take on exciting projects.</p>
-                        <p>In my free time, I enjoy reading novels, experimenting with new programming languages, crafting by journaling or sewing, and traveling the world!</p>
-                        <p>Feel free to explore my website to learn more about my projects and resumé. Click below to get in touch with me!</p>
+                            whether it's through coding or by reading/writing, and to explore the intersection of technology and creativity. Technology is
+                            such a powerful conduit for storytelling, and I hope to create tools that can help share stories in new and exciting ways!
+                        </p>
+                        <p>In my free time, I enjoy reading novels, crafting (journaling, sewing, and knitting), building exciting web apps, and traveling the world!</p>
+                        <p>Feel free to explore my website to learn more about my projects and resumé.</p>
+                        <p>(P.S. click the sticker on the right to get in touch with me!) :) </p>
+                    </div>
+                    <div>
+                        <img src="/images/Ejean_AbtMe.webp" alt="Ejean Kuo Pic" className="about-photo" loading="eager"/>
                         <Link to="/contacts" className="about-button">
-                            <img src="/connect-fruit-sticker.png" alt="Connect with me Button" className="connect-sticker" />
+                            <img src="/images/connect-fruit-sticker.png" alt="Connect with me Button" className="connect-sticker" />
                         </Link>
                     </div>
-                    <img src="/Ejean_AbtMe.webp" alt="Ejean Kuo Pic" className="about-photo" loading="eager"/>
                 </div>
             </div>
             <div className="books-card">
                 <p>Talk to me about my favorite books!</p>
-                <img src="/woman_destroyed.jpg" alt="The Woman Destroyed Book Cover" className="book-cover" />
-                <img src="/orlando-cover.jpg" alt="Orlando Book Cover" className="book-cover" />
-                <img src="/in-memoriam-cover.jpg" alt="In Memoriam Book Cover" className="book-cover" />
-                <img src="/sirens-cover.jpg" alt="Sirens of Titan Book Cover" className="book-cover" />
+                <img src="/images/woman_destroyed.jpg" alt="The Woman Destroyed Book Cover" className="book-cover" />
+                <img src="/images/orlando-cover.jpg" alt="Orlando Book Cover" className="book-cover" />
+                <img src="/images/in-memoriam-cover.jpg" alt="In Memoriam Book Cover" className="book-cover" />
+                <img src="/images/sirens-cover.jpg" alt="Sirens of Titan Book Cover" className="book-cover" />
             </div>
             <div className="FAQ-container">
                 <div className="question-card">
@@ -95,5 +99,3 @@ export default function AboutPage() {
         </div>
     );
 }
-
-

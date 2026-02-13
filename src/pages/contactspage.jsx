@@ -8,7 +8,7 @@ export default function ContactsPage() {
         <div className="contacts-page">
             {/* Contact Details */}
             <img 
-                src="/connectwithme.webp" 
+                src="/images/connectwithme.webp" 
                 alt="Connect with Me" 
                 className="contact-image"
                 loading="eager"
@@ -18,19 +18,19 @@ export default function ContactsPage() {
                 <ul className="contacts">
                     <li>
                         <a href="https://github.com/ejeankuo" className="contact-link"> 
-                            <img src="/github-logo.png" alt="github" className="logo"/> 
+                            <img src="/images/github-logo.png" alt="github" className="logo"/> 
                             github.com/ejeankuo
                         </a>
                     </li>
                     <li>
                         <a href="https://www.linkedin.com/in/ejeankuo/" className="contact-link"> 
-                            <img src="/linkedin-logo.png" alt="linkedin" className="logo"/> 
+                            <img src="/images/linkedin-logo.png" alt="linkedin" className="logo"/> 
                             linkedin.com/in/ejeankuo
                         </a>
                     </li> 
                     <li>
                         <a href="tel:+19257011032" className="contact-link"> 
-                            <img src="/phone-logo.png" alt="phone" className="logo"/>
+                            <img src="/images/phone-logo.png" alt="phone" className="logo"/>
                             (925) 701-1032  
                         </a>
                     </li>

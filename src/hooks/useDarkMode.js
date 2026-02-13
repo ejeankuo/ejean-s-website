@@ -1,10 +1,11 @@
 import { useEffect,useState } from 'react';
 
 export default function useDarkMode() {
-    const [isDark, setIsDark] = useState();
+    const [isDark, setIsDark] = useState(false);
 
     useEffect(() => {
-        
-    })
-    return { isDark, setIsDark };
+        document.body.classList.toggle("dark", isDark)
+    },[isDark])
+
+    return {isDark, setIsDark };
 }
