@@ -28,7 +28,7 @@
     padding: 1.2rem;
     width: 100%;
     height: auto;
-    margin :0;
+    margin: 0;
 }
 
 .project-image-wurdle {
@@ -66,5 +66,10 @@
     }
     .projects-heading {
       width: 100%;
+    }
+    .project-image-wurdle {
+      padding-left: 4rem;
+      width: 80%;
+      height: auto;
     }
   }
