@@ -122,6 +122,7 @@ body.dark .subtitle {
 /* Dark mode toggle button */
 .darkmode-toggle {
   margin: 2rem;
+  color: black;
 }
 
 /* Navigation */

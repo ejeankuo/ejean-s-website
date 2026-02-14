@@ -48,7 +48,8 @@
 }
 
 .experiences-scroll-container {
-  height: 50vh;
+  height: auto;
+  margin: 3rem auto;
   display: flex;
   align-items: center;
   text-align: center;
@@ -84,8 +85,8 @@
     margin-top: 0;
   }
   .experiences-scroll-container {
-    height: 35vh;
-    font-size: 0.9rem;
+    height: auto;
+    margin: 2rem auto;
     display: flex;
     align-items: center;
     text-align: center;
@@ -116,8 +117,8 @@
     max-width: 100%
   }
   .experiences-scroll-container {
-    font-size: 0.7rem;
-    height: 45vh;
+    height: auto;
+    margin: 1.5rem auto;
     display: flex;
     align-items: center;
     text-align: center;
