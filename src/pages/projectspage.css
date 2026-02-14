@@ -9,7 +9,7 @@
 .projects-heading {
     max-width: 950px;
     width: 100%;
-    margin: -1rem auto 1rem;
+    margin: -3rem auto 1rem;
 }
 
 .project-card {
@@ -19,6 +19,7 @@
     max-width: 1000px;
     width: 100%;
     list-style-type: none;
+    margin: 1rem;
 }
 
 .project-image {
@@ -49,6 +50,7 @@
     padding: 0 1.5rem;
     text-align: center;
     font-size: 1.5rem;
+    color: #A3585A;
 }
 
 /* Responsivity */
