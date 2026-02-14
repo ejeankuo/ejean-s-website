@@ -16,7 +16,7 @@ function ScrollExperience({ src, label, location, year, description}) {
     return (
         <section className="experiences-scroll-container">
             <motion.div className="experience-caption" ref={ref} style={{ opacity }}>
-                <h2>{label}</h2>
+                <h2 style={{color:"#919859"}}>{label}</h2>
                 <p>{location} {year}</p>
                 <br/>
                 <p>{description}</p>
@@ -47,21 +47,25 @@ export default function ResumePage() {
                     <ScrollExperience 
                         label="Software Engineer Intern @ Disney" 
                         location="Santa Monica, CA" 
-                        year="| Incoming Summer 2026" 
-                        description={<>Incoming intern for the Commerce, Data, & Identity <br/>
-                        Team for Disney Entertainment & ESPN Technology division</>}
+                        year="~ Incoming Summer 2026" 
+                        description={<>Incoming software engineer intern for the Commerce, Data, & Identity
+                        Team for Disney Entertainment & ESPN Technology division.</>}
                     />
                     <ScrollExperience 
-                        label="Undergraduate Researcher @ Northwestern University" 
+                        label="Undergraduate Researcher @ Northwestern University, Department of CS" 
                         location="Evanston, IL" 
-                        year="| May 2025 - Present" 
-                        description={<>Doing stuff</>}
+                        year="~ May 2025 - Present" 
+                        description={<>Formalized 4 foundational properties of strongly regular graphs
+                        in Rocq (formerly Coq) and built verified example generators in OCaml,
+                        with active development towards contributing results to Rocq’s open-source GraphTheory library.</>}
                     />
                     <ScrollExperience 
                         label="Software Engineer Intern @ Climate Action Evanston" 
                         location="Evanston, IL" 
-                        year="| December 2024 - May 2025" 
-                        description={<>DId stuff</>}
+                        year="~ December 2024 - May 2025" 
+                        description={<>Designed a full-stack tracking form and data display page for a non-profit's
+                        website supporting 2500+ users, centralizing data collection and visualization into one location,
+                        cutting redundant manual updates and streamlining staff workflows by 40%. </>}
                     />
                     <ScrollExperience />
                 </>

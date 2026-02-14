@@ -1,53 +1,53 @@
 /* Resume Page */
 
 .resume-page {
-    overflow-y: scroll;
-    padding-top: 3rem;
+  overflow-y: scroll;
 }
 
 .resume-actions {
-    text-align: center;
-    transition: box-shadow 0.3s ease;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
 }
 
 .resume-button { width: 20%; }
 
 .resume-button:hover  {
-    -ms-transform: rotate(-10deg);
-    -webkit-transform: rotate(-10deg);
-    -moz-transform: rotate(-10deg);
-    -o-transform: rotate(-10deg);
-    transform: rotate(-10deg);
-  }
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
 
 .resume-image-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 2rem;
-    padding: 0 3rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 0 3rem 5rem;
+  max-width: 55%;
 }
 
 .resume-figure-caption {
-    margin-top: 1rem;
-    font-size: 1.3rem;
-    text-align: center;
-    font-family: "Jersey 10", sans-serif;
-    font-style: italic;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  text-align: center;
+  font-family: "Jersey 10", sans-serif;
+  font-style: italic;
 }
   
 .resume-image {
-    display: flex;
-    flex: 1;
-    width: 100%;
-    max-width: 900px;
-    height: auto;
-    border: 1px solid var(--border);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex: 1;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .experiences-scroll-container {
-  height: 40vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   text-align: center;
@@ -61,21 +61,68 @@
 
 /* Mobile View */
   
-@media (max-width: 700px) {
-    .resume-page {
-        flex-direction: column;
-        align-items: center;
-    }
-    .resume-header { max-width: 100% }
-    .resume-actions{ max-width: 90%; }
-    .resume-button {
-      max-width: 50%;
-      margin-bottom: 1rem;
-    }
-    .resume-image-container { margin-left: 0; }
-    .resume-image { max-width: 100%; }
-    .resume-figure-caption {
-      font-size: 1rem;
-      margin-top: 0;
-    }
+@media (max-width: 800px) {
+  .resume-page {
+    flex-direction: column;
+    align-items: center;
   }
+  .resume-header { 
+    max-width: 100%;
+    margin-left: 1rem;
+  }
+  .resume-actions{ max-width: 90%; }
+  .resume-button {
+    width: 35%;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .resume-image-container { max-width: 100% }
+  .resume-image { max-width: 100%; }
+  .resume-figure-caption {
+    font-size: 1rem;
+    margin-top: 0;
+  }
+  .experiences-scroll-container {
+    height: 35vh;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: "Jersey 10", sans-serif;
+  }
+  .experiences-scroll-container h2 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 550px) { 
+  .resume-page {
+    flex-direction: column;
+    align-items: center;
+    padding: 1.2rem;
+    }
+  .resume-header { 
+    max-width: 100%;
+    margin-left: 1rem;
+  }
+  .resume-actions{ max-width: 90%; }
+  .resume-button {
+    width: 50%;
+    margin-bottom: 1rem;
+  }
+  .resume-image-container { 
+    margin-left: 0; 
+    max-width: 100%
+  }
+  .experiences-scroll-container {
+    font-size: 0.7rem;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: "Jersey 10", sans-serif;
+  }
+  .experiences-scroll-container h2 {
+    font-size: 1.2rem;
+  }
+}

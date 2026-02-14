@@ -9,7 +9,7 @@
 .projects-heading {
     max-width: 950px;
     width: 100%;
-    margin: 2rem auto 1rem;
+    margin: -1rem auto 1rem;
 }
 
 .project-card {
@@ -28,6 +28,14 @@
     width: 100%;
     height: auto;
     margin :0;
+}
+
+.project-image-wurdle {
+  max-width: 500px;
+  padding-left: 5rem;
+  width: 90%;
+  height: auto;
+  margin :0;
 }
 
 .project-description {
