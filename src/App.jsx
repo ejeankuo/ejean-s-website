@@ -15,7 +15,7 @@ export default function App() {
   const {isDark, setIsDark} = useDarkMode();
   return (
     <Router>
-      <button className="darkmode-toggle" onClick={() => setIsDark(prev => !prev)}>toggle</button>
+      <button className="darkmode-toggle" onClick={() => setIsDark(prev => !prev)}>dark mode</button>
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />

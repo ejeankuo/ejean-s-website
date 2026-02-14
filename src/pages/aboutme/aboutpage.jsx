@@ -2,6 +2,7 @@ import "./aboutpage.css";
 import ReusableCoursel from "./carousel.jsx";
 import { Typewriter } from 'react-simple-typewriter';
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const DiscPhotos = [
     { src: "/images/disc_catering.png", alt: "Ejean with DISC exec" },
@@ -51,12 +52,12 @@ export default function AboutPage() {
                         <p>Feel free to explore my website to learn more about my projects and resumé.</p>
                         <p>(P.S. click the sticker on the right to get in touch with me!) :) </p>
                     </div>
-                    <div>
+                    <motion.div whileHover={{ scale: 1.1 }}>
                         <img src="/images/Ejean_AbtMe.webp" alt="Ejean Kuo Pic" className="about-photo" loading="eager"/>
                         <Link to="/contacts" className="about-button">
                             <img src="/images/connect-fruit-sticker.png" alt="Connect with me Button" className="connect-sticker" />
                         </Link>
-                    </div>
+                    </motion.div>
                 </div>
             </div>
             <div className="books-card">
@@ -67,7 +68,7 @@ export default function AboutPage() {
                 <img src="/images/sirens-cover.jpg" alt="Sirens of Titan Book Cover" className="book-cover" />
             </div>
             <div className="FAQ-container">
-                <div className="question-card">
+                <motion.div className="question-card" whileHover={{ scale: 1.1 }}>
                     <p style={{fontWeight: "bold", fontSize: "20px", color: "#293d61"}}>Where am I on campus?</p>
                     <p>At Northwestern, you can find me organizing technical workshops with <span style={{fontWeight: "bold"}}>
                     <a href="https://www.discnu.org/"> Develop + Innovate for Social Change</a></span>,
@@ -81,8 +82,8 @@ export default function AboutPage() {
                         </span> team won 8th place at Nationals. 
                     </p>
                     <ReusableCoursel slides={NUMTPhotos}/>
-                </div>
-                <div className="question-card">
+                </motion.div>
+                <motion.div className="question-card" whileHover={{ scale: 1.1 }}>
                     <p style={{fontWeight: "bold", fontSize: "20px", color: "#293d61"}}>Why software engineering?</p>
                     <p>Growing up, I always thought I would pursue a career in law. I interned for the <span style={{fontWeight: "bold"}}><a href="https://sfdistrictattorney.org/">San Francisco District
                         Attorney Office</a></span> as well as <span style={{fontWeight: "bold"}}><a href="https://alpha-law.co.kr/">The Alpha Law Firm</a></span> in Seoul, South Korea, which were amazing experiences.<br/>
@@ -94,7 +95,7 @@ export default function AboutPage() {
                         tools that can make a difference! Check out my <span style={{fontWeight: "bold"}}><Link to="/projects">projects page</Link></span> to see some of the things I've developed.
                     </p>
                     <ReusableCoursel slides={SDFAPhotos}/>
-                </div>
+                </motion.div>
             </div>
         </div>
     );
