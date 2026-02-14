@@ -12,7 +12,7 @@ import useDarkMode from './hooks/useDarkMode.js';
 import ScrollToTop from './helper components/ScrollToTop.jsx';
 
 export default function App() {
-  const {isDark, setIsDark} = useDarkMode();
+  const {setIsDark} = useDarkMode();
   return (
     <Router>
       <button className="darkmode-toggle" onClick={() => setIsDark(prev => !prev)}>dark mode</button>
