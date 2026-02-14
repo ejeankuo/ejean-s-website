@@ -71,6 +71,12 @@
       margin: 2rem auto 0.5rem; 
     }
 
+    .contacts-row {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0.5rem;
+    }
+
     .contacts li { flex: 0 0 100%; }
   
     .contact-link {
