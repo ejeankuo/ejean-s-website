@@ -1,6 +1,6 @@
 import './email.css';
 import React from "react";
-
+import { motion } from 'framer-motion';
 
 export default function Email () {
     const [result, setResult] = React.useState("");
@@ -46,7 +46,11 @@ export default function Email () {
                     <label>Message </label>
                     <textarea name="message" className="field mess" placeholder="Tell me something!" required></textarea>
                 </div>
-                <button type="submit">Send message</button>
+                <motion.button 
+                    whileHover={{ scale: 1.2 }}
+                    whileTap={{ scale: 0.8 }} 
+                    type="submit">Send message
+                </motion.button>
 
                 {result && (
                     <p className={`form-message ${result.status}`}>
