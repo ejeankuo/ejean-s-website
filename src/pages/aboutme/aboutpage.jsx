@@ -50,7 +50,7 @@ export default function AboutPage() {
                         </p>
                         <p>In my free time, I enjoy reading novels, crafting (journaling, sewing, and knitting), building exciting web apps, and traveling the world!</p>
                         <p>Feel free to explore my website to learn more about my projects and resumé.</p>
-                        <p>(P.S. click the sticker on the right to get in touch with me!) :) </p>
+                        <p>(P.S. click the sticker to get in touch with me!) :) </p>
                     </div>
                     <motion.div whileHover={{ scale: 1.1 }}>
                         <img src="/images/Ejean_AbtMe.webp" alt="Ejean Kuo Pic" className="about-photo" loading="eager"/>
