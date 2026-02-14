@@ -63,14 +63,14 @@
 
 /* Mobile View */
   
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .resume-page {
     flex-direction: column;
     align-items: center;
   }
   .resume-header { 
     max-width: 100%;
-    margin-left: 1rem;
+    margin-left: 2rem;
   }
   .resume-actions{ max-width: 90%; }
   .resume-button {
@@ -78,7 +78,10 @@
     margin-left: 1.5rem;
     margin-bottom: 1rem;
   }
-  .resume-image-container { max-width: 100% }
+  .resume-image-container { 
+    max-width: 100%;
+    margin: 1.5rem;
+  }
   .resume-image { max-width: 100%; }
   .resume-figure-caption {
     font-size: 1rem;
@@ -114,7 +117,8 @@
   }
   .resume-image-container { 
     margin-left: 0; 
-    max-width: 100%
+    max-width: 100%;
+    padding: 1rem;
   }
   .experiences-scroll-container {
     height: auto;
