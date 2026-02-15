@@ -43,14 +43,15 @@ export default function AboutPage() {
                 <div className="about-card">
                     <div className="about-text">
                         <h2><HelloTyped/></h2>
-                        <p>I'm Ejean Kuo, a third-year student at Northwestern University pursuing a B.A. in Computer Science and English Literature.</p>
-                        <p>I'm from the San Francisco Bay Area, but I'm currently based in Evanston, IL. I love to study languages, 
-                            whether it's through coding or by reading/writing, and to explore the intersection of technology and 
-                            creative storytelling. I hope to create tools that can help share stories in fun and effective ways! This summer, I'll be a software engineer intern at Disney, 
-                            and I'm super excited to help build technology that will tell magical stories for people all over the world!
+                        <p>I'm Ejean (pronounced "EEE-jean"), a junior at Northwestern University pursuing a B.A. in Computer Science and English Literature.
+                            I'm from the San Francisco Bay Area, but I'm currently based in Evanston, Illinois.
                         </p>
-                        <p>In my free time, I enjoy reading novels, journaling and sewing, building exciting web apps, and traveling the world!</p>
-                        <p>Feel free to explore my website to learn more about my projects and resumé.</p>
+                        <p> I love studying languages, whether it's through code, reading, or writing, and exploring the intersection of technology 
+                            and creative storytelling. My goal is to build tools that help share stories in fun, effective, and creative ways. 
+                            It’s that exact mission that’s taking me to Santa Monica this summer; I’ll be joining Disney as a Software Engineer Intern! 
+                            I’m beyond excited to help build the tech that brings magical stories to life for people all over the world.
+                        </p>
+                        <p>In my free time, I love reading, journaling, sewing, traveling the world, and building exciting web apps. Explore my website to learn more about my projects and resumé!</p>
                         <p>(P.S. click the sticker to get in touch with me!) :) </p>
                     </div>
                     <motion.div whileHover={{ scale: 1.1 }}>

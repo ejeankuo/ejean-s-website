@@ -68,7 +68,7 @@ function IntroText() {
                 <p> <IoPin /> San Francisco, CA</p>
               </div>
             </div>
-            <p className="subtitle">I'm a third year student at Northwestern 
+            <p className="subtitle">I'm a junior at Northwestern 
             University pursuing a B.A. in Computer Science and English Literature.</p> 
   
             {/* Button Nav */}
