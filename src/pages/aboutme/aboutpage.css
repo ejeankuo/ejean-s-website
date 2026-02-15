@@ -83,7 +83,8 @@
 .question-card {
   text-align: center;
   padding: 2rem 4rem;
-  background-color: #ebe8d3;
+  /*background-color: #ebe8d3;*/
+  background-color: #d2d9e2ef;
   max-width: 50%;
   display: block;
   margin: 2rem auto 3rem;
