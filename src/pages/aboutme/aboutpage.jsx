@@ -45,10 +45,11 @@ export default function AboutPage() {
                         <h2><HelloTyped/></h2>
                         <p>I'm Ejean Kuo, a third-year student at Northwestern University pursuing a B.A. in Computer Science and English Literature.</p>
                         <p>I'm from the San Francisco Bay Area, but I'm currently based in Evanston, IL. I love to study languages, 
-                            whether it's through coding or by reading/writing, and to explore the intersection of technology and creativity. Technology is
-                            such a powerful conduit for storytelling, and I hope to create tools that can help share stories in new and exciting ways!
+                            whether it's through coding or by reading/writing, and to explore the intersection of technology and 
+                            creative storytelling. I hope to create tools that can help share stories in fun and effective ways! This summer, I'll be a software engineer intern at Disney, 
+                            and I'm super excited to help build technology that will tell magical stories for people all over the world!
                         </p>
-                        <p>In my free time, I enjoy reading novels, crafting (journaling, sewing, and knitting), building exciting web apps, and traveling the world!</p>
+                        <p>In my free time, I enjoy reading novels, journaling and sewing, building exciting web apps, and traveling the world!</p>
                         <p>Feel free to explore my website to learn more about my projects and resumé.</p>
                         <p>(P.S. click the sticker to get in touch with me!) :) </p>
                     </div>
@@ -64,7 +65,7 @@ export default function AboutPage() {
                 <p>Talk to me about my favorite books!</p>
                 <img src="/images/woman_destroyed.jpg" alt="The Woman Destroyed Book Cover" className="book-cover" />
                 <img src="/images/orlando-cover.jpg" alt="Orlando Book Cover" className="book-cover" />
-                <img src="/images/in-memoriam-cover.jpg" alt="In Memoriam Book Cover" className="book-cover" />
+                <img src="/images/janeeyre.jpg" alt="Jane Eyre Book Cover" className="book-cover" />
                 <img src="/images/sirens-cover.jpg" alt="Sirens of Titan Book Cover" className="book-cover" />
             </div>
             <div className="FAQ-container">
@@ -96,6 +97,37 @@ export default function AboutPage() {
                     </p>
                     <ReusableCoursel slides={SDFAPhotos}/>
                 </motion.div>
+                <motion.div className="question-card" whileHover={{ scale: 1.1 }}>
+                    <p style={{fontWeight: "bold", fontSize: "20px", color: "#293d61"}}>What's my coding soundtrack?</p>
+                    <p>Currently, my favorite songs to listen to while coding are: </p>
+                    <div>
+                        <p>"California" by Lorde <br/>
+                            "Mangos" by Shallow Alcove <br/>
+                            "Hold No Grudge" by Lorde <br/>
+                            "Your Star" by Shallow Alcove <br/>
+                            "Sore Throat" by Malcolm Todd <br/>
+                            "Backburner" by NIKI <br/>
+                            "Beaches" by beabadoobee
+                        </p>
+                    </div>
+                    <motion.img className="vinyl-record" src="/images/record_vinyl.png"></motion.img>
+                </motion.div>
+                <motion.div className="question-card" whileHover={{ scale: 1.1 }}>
+                    <p style={{fontWeight: "bold", fontSize: "20px", color: "#293d61"}}>What's next?</p>
+                    <p>This summer, I'll be in Santa Monica, California as a software engineer intern at Disney.
+                        I'll be working on a Disney+ team, building out new features for the streaming platform.
+                        I'm super excited to be a part of a team that helps make real magic possible! I'm also stoked
+                        to finally trade my winter coat for sunglasses and beach days!  ☀(▀U ▀-͠)
+                    </p>
+                    <p> Aside from work, I'm currently working on a revamp of my iOS app Ranklit, turning it into a web app!
+                        The tech stack is TypeScript, Next.js, React, Tailwind, and Supabase. What I've found to be
+                        the most exciting about this is reimagining the interface for a larger canvas. 
+                        Taking the core logic of the original app and scaling it into a responsive web experience 
+                        has forced me to rethink the user experience in order to make if feel as smooth 
+                        on a desktop as it did in their pocket.
+                    </p>
+                </motion.div>
+                <div className="footer"></div>
             </div>
         </div>
     );

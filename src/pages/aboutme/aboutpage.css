@@ -104,6 +104,12 @@
   padding: 10px;
 }
 
+.vinyl-record {
+  animation: spin 6s linear infinite;
+  width: 40%;
+  height: auto;
+}
+
 a {
   color: inherit;
 }
@@ -112,6 +118,7 @@ a {
   margin-left: 3rem;
   font-size: 1.6rem;
 }
+
 
 /* Responsivity */
 
