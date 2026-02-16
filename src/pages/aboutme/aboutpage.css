@@ -130,18 +130,22 @@ a {
 @media (max-width: 900px) {
   .about-card {
     gap: 1.25rem;
-    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
   }
 
   .about-text {
     max-width: 700px;
-    margin: 0rem 2rem;
+    margin: 0rem 1rem;
   }
 
   .about-text p {
     margin: 0 1.25rem 1rem;
     max-width: 100%;
+  }
+
+  .about-text h2 {
+    margin: 0 1.25rem 1rem;
   }
 
   .about-photo {
@@ -159,7 +163,7 @@ a {
   }
 
   .question-card p {
-    font-size: clamp(0.9rem, 1vw, 2rem);
+    font-size: clamp(0.8rem, 1vw, 2rem);
     color: black;
   }
 
@@ -170,6 +174,11 @@ a {
 
 /* Phone */
 @media (max-width: 600px) {
+  .hello-typewriter {
+    font-size: 1.2rem;
+    margin-left: -3rem;
+  }
+  
   .about-me-header {
     flex-direction: column;
     align-items: center;
@@ -194,7 +203,12 @@ a {
 
   .about-text p {
     margin: 0 0 0.9rem;
-    font-size: clamp(1rem, 1vw, 2rem);
+    font-size: clamp(0.85rem, 1vw, 2rem);
+  }
+
+  .about-text h2 {
+    margin-left: 3rem;
+    font-size: 1.6rem;
   }
 
   .about-photo {
@@ -215,8 +229,5 @@ a {
     border-radius: 0%;
   }
 
-  .hello-typewriter {
-    margin-left: -3rem;
-  }
 
 }
