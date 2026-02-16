@@ -120,6 +120,9 @@ a {
   font-size: 1.6rem;
 }
 
+.no-break {
+  white-space: nowrap;
+}
 
 /* Responsivity */
 

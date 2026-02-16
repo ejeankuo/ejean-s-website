@@ -118,7 +118,7 @@ export default function AboutPage() {
                     <p>This summer, I'll be in Santa Monica, California as a software engineer intern at Disney.
                         I'll be working on a Disney+ team, building out new features for the streaming platform.
                         I'm super excited to be a part of a team that helps make real magic possible! I'm also stoked
-                        to finally trade my winter coat for sunglasses and beach days!  ☀(▀U ▀-͠)
+                        to finally trade my winter coat for sunglasses and beach days!  <span class="no-break">{"\u2600\uFE0E"}(▀U ▀-͠)</span>
                     </p>
                     <p> Aside from work, I'm currently working on a revamp of my iOS app Ranklit, turning it into a web app!
                         The tech stack is TypeScript, Next.js, React, Tailwind, and Supabase. What I've found to be
