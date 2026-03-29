@@ -1,4 +1,34 @@
 import "./projectspage.css";
+/* import { motion, useScroll, useTransform } from "framer-motion";
+import { useRef } from "react";
+
+function ScrollProjects({ src, label, location, year, description}) {
+  const ref = useRef(null);
+
+  const { scrollYProgress } = useScroll({ 
+      target: ref,
+      offset: ["start end", "end end", "start start", "end start"],
+  })
+
+  const opacity = useTransform(scrollYProgress, [0, 0.4, 0.6, 1],[0, 1, 1, 0]);
+
+  return (
+      <section className="experiences-scroll-container">
+          <motion.div className="experience-caption" ref={ref} style={{ opacity }}>
+            <li>
+              <a href="https://wurdle-mu.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <img src="/images/wurdle.webp" alt="Ranklit Logo" className="project-image-wurdle" loading="eager"/>
+              </a>
+            </li>
+            <p className="project-description">
+              <strong> Tech Stack: </strong> <br/> 
+              React · JavaScript · Vercel <br /> <br />
+              A wordle clone, made using Javascript, React, and deployed on Vercel. Test it out yourself!
+            </p>
+          </motion.div>
+      </section>
+  )
+} */
 
 export default function ProjectsPage() {
     return (

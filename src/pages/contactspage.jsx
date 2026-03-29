@@ -28,12 +28,6 @@ export default function ContactsPage() {
                             linkedin.com/in/ejeankuo
                         </a>
                     </li> 
-                    <li>
-                        <a href="tel:+19257011032" className="contact-link"> 
-                            <img src="/images/phone-logo.png" alt="phone" className="logo"/>
-                            (925) 701-1032  
-                        </a>
-                    </li>
                 </ul>
 
                 {/* Right column */}
