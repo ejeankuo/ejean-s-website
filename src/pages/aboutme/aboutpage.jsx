@@ -102,13 +102,13 @@ export default function AboutPage() {
                     <p style={{fontWeight: "bold", fontSize: "20px", color: "#293d61"}}>What's my coding soundtrack?</p>
                     <p>Currently, my favorite songs to listen to while coding are: </p>
                     <div>
-                        <p>"California" by Lorde <br/>
+                        <p>"4EVER" by Clairo <br/>
                             "Mangos" by Shallow Alcove <br/>
                             "Hold No Grudge" by Lorde <br/>
                             "Your Star" by Shallow Alcove <br/>
                             "Sore Throat" by Malcolm Todd <br/>
                             "Backburner" by NIKI <br/>
-                            "Beaches" by beabadoobee
+                            "The Best" by Conan Gray
                         </p>
                     </div>
                     <motion.img className="vinyl-record" src="/images/record_vinyl.png"></motion.img>

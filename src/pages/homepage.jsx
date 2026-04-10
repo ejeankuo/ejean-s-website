@@ -62,7 +62,7 @@ function IntroText() {
               <div className="headshot-container">
                 <li className="headshot-link">
                     <a href="https://www.linkedin.com/in/ejeankuo/" className="contact-link"> 
-                      <img src="/images/headshot.png" alt="Ejean Kuo's Headshot" className="headshot" />
+                      <img src="/images/ejean2026headshot.webp" alt="Ejean Kuo's Headshot" className="headshot" />
                     </a>
                 </li> 
                 <p> <IoPin /> San Francisco, CA</p>
