@@ -43,13 +43,16 @@ export default function AboutPage() {
                 <div className="about-card">
                     <div className="about-text">
                         <h2><HelloTyped/></h2>
-                        <p>I'm Ejean (pronounced "EEE-jean"), a junior at Northwestern University pursuing a B.A. in Computer Science and English Literature.
+                        <p>I'm Ejean (pronounced "EEE-jean"), a senior at Northwestern University pursuing a B.A. in Computer Science and English Literature.
                             I'm from the San Francisco Bay Area, but I'm currently based in Evanston, Illinois.
                         </p>
                         <p> I love studying languages, whether it's through code, reading, or writing, and exploring the intersection of technology 
                             and creative storytelling. My goal is to build tools that help share stories in fun, effective, and creative ways. 
-                            It’s that exact mission that’s taking me to Santa Monica this summer; I’ll be joining Disney as a Software Engineer Intern! 
-                            I’m beyond excited to help build the tech that brings magical stories to life for people all over the world.
+                        </p>
+                        <p>
+                        It’s that exact mission that brought me to Santa Monica this summer; I've been working at Disney as a Software Engineer Intern,
+                            working on Disney+, Hulu, and ESPN streaming services! 
+                            It's been incredibly rewarding to help build the tech that brings magical stories to life for people all over the world.
                         </p>
                         <p>In my free time, I love reading, journaling, sewing, traveling the world, and building exciting web apps. Explore my website to learn more about my projects and resumé!</p>
                         <p>(P.S. click the sticker to get in touch with me!) :) </p>
@@ -102,30 +105,25 @@ export default function AboutPage() {
                     <p style={{fontWeight: "bold", fontSize: "20px", color: "#293d61"}}>What's my coding soundtrack?</p>
                     <p>Currently, my favorite songs to listen to while coding are: </p>
                     <div>
-                        <p>"4EVER" by Clairo <br/>
+                        <p>"AMERICAN GIRL" by Tiffany Day<br/>
                             "Mangos" by Shallow Alcove <br/>
-                            "Hold No Grudge" by Lorde <br/>
+                            "whenever you want" by lighthearted <br/>
                             "Your Star" by Shallow Alcove <br/>
                             "Sore Throat" by Malcolm Todd <br/>
                             "Backburner" by NIKI <br/>
-                            "The Best" by Conan Gray
+                            "maggots for brains" by Olivia Rodrigo <br/>
+                            "EVERYTHING I'VE EVER WANTED" by Tiffany Day
                         </p>
                     </div>
                     <motion.img className="vinyl-record" src="/images/record_vinyl.png"></motion.img>
                 </motion.div>
                 <motion.div className="question-card" whileHover={{ scale: 1.1 }}>
                     <p style={{fontWeight: "bold", fontSize: "20px", color: "#293d61"}}>What's next?</p>
-                    <p>This summer, I'll be in Santa Monica, California as a software engineer intern at Disney.
-                        I'll be working on a Disney+ team, building out new features for the streaming platform.
-                        I'm super excited to be a part of a team that helps make real magic possible! I'm also stoked
-                        to finally trade my winter coat for sunglasses and beach days!  <span class="no-break">{"\u2600\uFE0E"}(▀U ▀-͠)</span>
-                    </p>
-                    <p> Aside from work, I'm currently working on a revamp of my iOS app Ranklit, turning it into a web app!
-                        The tech stack is TypeScript, Next.js, React, Tailwind, and Supabase. What I've found to be
-                        the most exciting about this is reimagining the interface for a larger canvas. 
-                        Taking the core logic of the original app and scaling it into a responsive web experience 
-                        has forced me to rethink the user experience in order to make if feel as smooth 
-                        on a desktop as it did in their pocket.
+                    <p>I'm currently working in Santa Monica, CA as a software engineer intern at Disney!
+                        I've been working on building exciting A/B experiments on the Disney+, Hulu, and ESPN web pages, 
+                        automating subscription sign-up flows, upgrading core payment pages, and supporting backend migration
+                        from legacy code to a new, optimized platform code base. When I'm not in the office, you can catch me 
+                        at Disneyland eating churros and riding the Incredicoaster! <span class="no-break">{"\u2600\uFE0E"}(▀U ▀-͠)</span>
                     </p>
                 </motion.div>
                 <div className="footer"></div>

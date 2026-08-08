@@ -46,15 +46,16 @@ export default function ResumePage() {
                 <>
                     <ScrollExperience 
                         label="Software Engineer Intern @ Disney" 
-                        location="Santa Monica, CA" 
-                        year="~ Incoming Summer 2026" 
-                        description={<>Incoming software engineer intern for the Commerce, Data, & Identity
-                        Team for Disney Entertainment & ESPN Technology division.</>}
+                        location="Santa Monica, CA ~" 
+                        year="June 2026 - Present" 
+                        description={<>Software engineer intern on the Experimentations team for Disney Streaming (Disney+, Hulu, and ESPN). I've been
+                        adding a chatbot to Disney+'s core landing page, 
+                        <a href="https://www.disneyplus.com"> disneyplus.com. </a></>}
                     />
                     <ScrollExperience 
                         label="Undergraduate Researcher @ Northwestern University, Department of CS" 
                         location="Evanston, IL" 
-                        year="~ May 2025 - Present" 
+                        year="~ May 2025 - June 2026" 
                         description={<>Formalized 4 foundational properties of strongly regular graphs
                         in Rocq (formerly Coq) and built verified example generators in OCaml,
                         with active development towards contributing results to Rocq’s open-source GraphTheory library.</>}
