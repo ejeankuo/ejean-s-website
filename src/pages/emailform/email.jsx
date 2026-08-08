@@ -10,7 +10,7 @@ export default function Email () {
         setResult("Sending....");
         const formData = new FormData(event.target);
 
-        formData.append("access_key", "059c2d10-fdea-44ed-a5b4-570fc79ed7fa");
+        formData.append("access_key", "5692649e-822e-4252-91f9-ae94785ff460");
 
         const response = await fetch("https://api.web3forms.com/submit", {
             method: "POST",
