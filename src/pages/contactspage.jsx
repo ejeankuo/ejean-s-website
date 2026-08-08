@@ -40,9 +40,9 @@ export default function ContactsPage() {
   }
 
 /* <li>
-        <a href="mailto:ejeankuo2027@u.northwestern.edu" className="contact-link"> 
+        <a href="mailto:ejean.swe@gmail.com" className="contact-link"> 
             <img src="/mail-logo.png" alt="mail" className="logo"/> 
-            ejeankuo2027@u.northwestern.edu
+            ejean.swe@gmail.com
         </a>
     </li>
 */
